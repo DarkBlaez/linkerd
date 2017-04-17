@@ -13,6 +13,13 @@
 * Add support for per-service configuration.
 * Split the timeoutMs router option into a requestAttemptTimeoutMs client option
   and a totalTimeoutMs service option.
+* Rename the "dst/path" metrics scope to "service".
+* Rename the "dst/id" metrics scope to "client".
+* Rename the "namer.path" trace annotation to "service".
+* Rename the "dst.id" trace annotation to "client".
+* Rename the "dst.path" trace annotation to "residual".
+* Rename the "l5d-dst-logical" HTTP and H2 headers to "l5d-dst-service".
+* Rename the "l5d-dst-concrete" HTTP and H2 headers to "l5d-dst-client".
 
 ## 0.9.1 2017-03-15
 

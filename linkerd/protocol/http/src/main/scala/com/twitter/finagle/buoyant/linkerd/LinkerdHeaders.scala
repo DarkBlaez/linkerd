@@ -383,8 +383,8 @@ object Headers {
    * next hop.
    */
   object Dst {
-    val Path = Prefix + "dst-logical"
-    val Bound = Prefix + "dst-concrete"
+    val Path = Prefix + "dst-service"
+    val Bound = Prefix + "dst-client"
     val Residual = Prefix + "dst-residual"
 
     /** Encodes `l5d-dst-path` on outgoing requests. */
